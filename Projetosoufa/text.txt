@@ -1,0 +1,6 @@
+<div class="button-item">  
+	 <img src="imgs/Gow.png" alt="GodOfWarII" class="primeira-imagem"> 
+	 
+	 </div>
+	 <div>	
+	 <img src="imgs/Hs.png" alt="HeavenlySword" class="segunda-imagem">

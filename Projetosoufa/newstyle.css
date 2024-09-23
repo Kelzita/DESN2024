@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Imagem de fundo animada */
+.imagem-animada {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background-image.jpg'); /* URL da imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    animation: moverFundo 10s infinite linear; /* Animação do fundo */
+    z-index: -1;
+}
+
+@keyframes moverFundo {
+    0% { transform: scale(1) translateY(0); }
+    50% { transform: scale(1.05) translateY(-10px); }
+    100% { transform: scale(1) translateY(0); }
+}
+
+/* Retângulo de fundo para os botões */
+.retangulo {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Estilo do container de botões */
+.container-botoes {
+    text-align: center;
+}
+
+/* Botões com imagens sobre eles */
+.botao-animado {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    color: #fff;
+    background-color: #8b0000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.botao-animado img.imagem-botao {
+    width: 30px; /* Tamanho das imagens sobre os botões */
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.botao-animado:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all 0.5s ease;
+}
+
+.botao-animado:hover {
+    background-color: #b22222;
+}
+
+.botao-animado:hover:before {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+}
+
+.botao-animado:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}

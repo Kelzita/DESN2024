@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Botões para Novels Chinesas</title>
+</head>
+<body>
+    <div class="rectangle">
+        <div class="button-container">
+            <!-- Primeiro botão com imagem acima -->
+            <div class="button-item">
+                <a href="link-para-leia-agora.html" class="button-link">
+                    <img src="imgs/Hs.png" alt="HeavenlySword" class="top-image">
+                    <button class="custom-button">Leia Agora</button>
+                </a>
+            </div>
+            <!-- Segundo botão com imagem acima -->
+            <div class="button-item">
+                <a href="link-para-capitulos.html" class="button-link">
+                   <img src="imgs/Gow.png" alt="GodOfWarII" class="top-image"> 
+                    <a href="https://example.com/novel2" class="animated-button">God Of War</a>
+                </a>
+            </div>
+            <div class="button-item">
+                <a href="link-para-sobre.html" class="button-link">
+                    <img src="imgs/Hs.png" alt="HeavenlySword" class="top-image">
+                    <button class="custom-button">Sobre</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

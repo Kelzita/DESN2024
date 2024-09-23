@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai Star Rail</title>
+    <link rel="stylesheet" href="GodOfWar.css">
+</head>
+<body>
+    <div class="rectangle">
+	 <div class="button-item">
+	 <header>
+	 <h1><center>God Of War</center></h1>
+	 </header>
+	<section>
+ 
+	
+	 <div class="button-container" >
+		 
+           <a href="soufasite1.html" class="animated-button">Voltar</a>
+
+        </div>
+
+  
+    <footer class="copyright">
+        <p>&copy; 2024 God Of War Fanpage. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

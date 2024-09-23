@@ -1,0 +1,77 @@
+/* Centraliza o retângulo na página */
+body {
+    display: flex;
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    height: 100vh;             /* Define a altura da página como 100% da altura da viewport */
+    margin: 0;                 /* Remove as margens padrão */
+    background-color: #f4f4f4; /* Cor de fundo da página (opcional) */
+}
+
+/* Estilo para o retângulo */
+.rectangle {
+    background-color: #ffffff; /* Cor de fundo do retângulo (branco) */
+    border: 2px solid #ccc;    /* Borda cinza clara */
+    padding: 40px;             /* Espaçamento interno */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    text-align: center;        /* Centraliza o conteúdo do retângulo */
+    max-width: 800px;          /* Limita a largura do retângulo */
+}
+
+/* Estilo para o título */
+h1 {
+    font-size: 24px;           /* Tamanho da fonte do título */
+    margin-bottom: 20px;       /* Espaçamento abaixo do título */
+}
+
+/* Estilo para o parágrafo */
+p {
+    font-size: 16px;           /* Tamanho da fonte do texto */
+    line-height: 1.5;          /* Espaçamento entre linhas */
+    margin-bottom: 30px;       /* Espaçamento abaixo do texto */
+}
+
+/* Estilo para as imagens acima dos botões */
+.top-image {
+    max-width: 100%;       /* Limita a largura máxima da imagem */
+    height: auto;          /* Mantém a proporção da imagem */
+    display: block;        /* Garante que a imagem não tenha espaço abaixo dela */
+    margin: 0 auto 10px;   /* Centraliza a imagem e adiciona espaço abaixo dela */
+}
+
+/* Contêiner para o botão e imagem */
+.button-item {
+    display: flex;
+    flex-direction: column; /* Alinha a imagem e o botão verticalmente */
+    align-items: center;    /* Centraliza a imagem e o botão horizontalmente */
+}
+
+/* Centraliza os botões dentro do retângulo */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Alinha os botões verticalmente */
+    gap: 20px;              /* Espaçamento entre os botões */
+    align-items: center;    /* Centraliza todos os botões horizontalmente */
+}
+
+/* Estilo para os links dos botões */
+.button-link {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit;        /* Garante que a cor do link herde a cor do botão */
+}
+
+/* Estilo base para os botões */
+.custom-button {
+    background-color: black;  /* Cor de fundo preta */
+    color: white;             /* Texto branco */
+    border: 2px solid red;    /* Borda vermelha */
+    padding: 10px 20px;       /* Espaçamento interno */
+    font-size: 16px;          /* Tamanho da fonte */
+    cursor: pointer;          /* Cursor muda para pointer ao passar por cima */
+    transition: opacity 0.3s; /* Transição suave para opacidade */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.custom-button:hover {
+    opacity: 0.7; /* Torna o botão opaco */
+}

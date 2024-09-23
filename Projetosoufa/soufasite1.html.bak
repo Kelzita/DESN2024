@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de Jogos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="rectangle">
+	 <div class="button-item">
+	 <header>
+	 <h1><center>Recomendação de Jogos</center></h1>
+	 </header>
+       <section>
+          <div class="container-imagens">
+            <img src="imgs/hsr.png" alt="Hs" class="imagem-decorativa1">
+            <img src="imgs/Gow.png" alt="Gow" class="imagem-decorativa2">
+            <img src="imgs/Tlou.png" alt="Tlou" class="imagem-decorativa3">
+        </div>
+		
+		 <div class="button-container" >
+		 
+           <a href="HonkaiStarRail.html" class="animated-button">Honkai Star Rail</a>
+            <a href="soufasite1.html" class="animated-button">God Of War</a>
+            <a href="soufasite1.html" class="animated-button">The Last Of Us</a>
+			
+			
+        </div>
+		 <div class="paragrafo-jogos">
+            <p>
+                Os jogos de vídeo proporcionam experiências únicas, levando os jogadores a mundos imersivos, desafios emocionantes e histórias envolventes. Entre tantos títulos disponíveis, alguns se destacam como favoritos, oferecendo jornadas inesquecíveis. <strong>Honkai Star Rail</strong>, um RPG com batalhas táticas e uma narrativa cheia de mistério e personagens cativantes, é uma verdadeira aventura espacial. <strong>God of War</strong>, com sua mistura de mitologia nórdica e ação intensa, mergulha os jogadores na história épica de Kratos e seu filho Atreus. Por fim, <strong>The Last of Us</strong> emociona com uma narrativa pós-apocalíptica comovente, onde laços humanos e sobrevivência se entrelaçam. Esses três jogos exemplificam o melhor da indústria, combinando ação, história e imersão de forma magistral.
+            </p>
+        </div>
+		 </section>
+		 
+		<footer>Copyright &copy; TDESN20242V1</footer>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

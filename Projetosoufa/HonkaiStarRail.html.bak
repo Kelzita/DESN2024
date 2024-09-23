@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai Star Rail</title>
+    <link rel="stylesheet" href="HonkaiStarRail.css">
+</head>
+<body>
+    <div class="rectangle">
+	 <div class="button-item">
+	 <header>
+	 <h1><center>Honkai Star Rail</center></h1>
+	 </header>
+	<section>
+<div>
+     <img src="imgs/train.gif" alt="HsrTrain" class="animacao"> </img>
+	 </div>
+    <div class="logo">
+        <img src="imgs/hsr.png" alt="Honkai Star Rail Logo" class="imagem-logo"></img>
+    </div>
+
+   
+    <div class="introducao">
+        <h1>O que é Honkai Star Rail?</h1>
+        <p>
+            <strong>Honkai Star Rail</strong> é um RPG tático baseado em turnos desenvolvido pela HoYoverse, ambientado em um vasto universo de ficção científica. Os jogadores embarcam em uma aventura interestelar a bordo do Astral Express, viajando por diferentes mundos e enfrentando forças misteriosas conhecidas como "Honkai".
+        </p>
+    </div>
+
+    <div class="personagens">
+        <h2>Personagens Principais</h2>
+   
+        <div class="grupo-personagem">
+            <img src="imgs/welt.png" alt="Welt Yang" class="imagem-personagem">
+            <div class="descricao-personagem">
+                <h3>Welt Yang</h3>
+                <p>
+                    Welt é um dos líderes do Astral Express e um personagem veterano do universo de Honkai. Com habilidades em manipulação de gravidade, ele luta para proteger o universo contra ameaças cósmicas.
+                </p>
+            </div>
+        </div>
+
+        <div class="grupo-personagem">
+            <img src="imgs/march7th.png" alt="March 7th" class="imagem-personagem">
+            <div class="descricao-personagem">
+                <h3>March 7th</h3>
+                <p>
+                    March 7th é uma personagem otimista e determinada a desvendar o mistério de seu passado. Ela foi encontrada congelada no espaço e se junta ao Astral Express para explorar os segredos do universo.
+                </p>
+            </div>
+        </div>
+
+        <div class="grupo-personagem">
+            <img src="imgs/danheng.png" alt="Dan Heng" class="imagem-personagem">
+            <div class="descricao-personagem">
+                <h3>Dan Heng</h3>
+                <p>
+                    Um membro calmo e introspectivo da equipe do Astral Express, Dan Heng luta com uma lança e é conhecido por sua força e dedicação. Seu passado misterioso ainda está para ser completamente revelado.
+                </p>
+            </div>
+        </div>
+
+        <div class="grupo-personagem">
+            <img src="imgs/himeko.png" alt="Himeko" class="imagem-personagem">
+            <div class="descricao-personagem">
+                <h3>Himeko</h3>
+                <p>
+                    Himeko é uma exploradora e líder do grupo de pesquisa. Com um espírito aventureiro e habilidades de combate excepcionais, ela busca entender os mistérios do universo e proteger seus amigos.
+                </p>
+            </div>
+        </div>
+
+        <div class="grupo-personagem">
+            <img src="imgs/stelle1.png" alt="Stelle/Caelus" class="imagem-personagem">
+            <div class="descricao-personagem">
+                <h3>Stelle/Caelus</h3>
+                <p>
+                    Stelle, ou Caelus, é o protagonista personalizável do jogo, que possui um poder especial que atrai a atenção de várias forças. A sua jornada é cheia de desafios e descobertas em sua busca por respostas.
+                </p>
+            </div>
+        </div>
+    </div>
+
+  
+    <div class="historia">
+        <h2>Resumo da História</h2>
+        <p>
+            A trama de <strong>Honkai Star Rail</strong> gira em torno da luta contra uma força misteriosa chamada "Honkai", que ameaça mundos inteiros. A bordo do Astral Express, os jogadores assumem o papel de um protagonista desconhecido que possui um poder enigmático, viajando de planeta em planeta, conhecendo novos aliados e enfrentando grandes desafios. Cada mundo tem sua própria cultura, problemas e inimigos únicos, fazendo com que a missão do Astral Express seja de vital importância para salvar o universo.
+        </p>
+    </div>
+
+
+ 
+	
+	 <div class="button-container" >
+		 
+           <a href="soufasite1.html" class="animated-button">Voltar</a>
+
+        </div>
+
+  
+    <footer class="copyright">
+        <p>&copy; 2024 Honkai Star Rail Fanpage. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

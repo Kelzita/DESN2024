@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Novelas Chinesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="imagem-animada"></div> <!-- Imagem de fundo animada -->
+    <div class="retangulo">
+        <div class="container-botoes">
+            <a href="https://example.com/novel1" class="botao-animado">
+                <img src="Gow.png" alt="TLOU" class="imagem-botao">
+                The Last Of Us
+            </a>
+            <a href="https://example.com/novel2" class="botao-animado">
+                <img src="Gow.png" alt="God Of War" class="imagem-botao">
+                God Of War
+            </a>
+            <a href="https://example.com/novel3" class="botao-animado">
+                <img src="Hs.png" alt="HeavenlySword" class="imagem-botao">
+                Heavenly Sword
+            </a>
+        </div>
+    </div>
+</body>
+</html>
